@@ -1,0 +1,59 @@
+name: Development Pre-Release (Dev)
+
+on:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: webui/package-lock.json
+
+      - name: Install WebUI Dependencies
+        run: npm ci
+        working-directory: webui
+
+      - name: Build WebUI
+        run: npm run build
+        working-directory: webui
+
+      - name: Extract Version & Set Artifact Name
+        id: aot_info
+        run: |
+          VERSION=$(grep -m 1 "version=" module/module.prop | cut -d= -f2)
+          echo "AOT_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "ZIP_NAME=AOT-Tether-${VERSION}-PRE.zip" >> $GITHUB_ENV
+          
+          echo "This is an automated development pre-release (PRE) from the \`dev\` branch." > release_body.txt
+
+      - name: Zip KernelSU Module
+        run: |
+          cd module
+          zip -r9 ../${{ env.ZIP_NAME }} *
+          cd ..
+
+      - name: Deploy Pre-Release (Dev)
+        uses: softprops/action-gh-release@v2
+        if: github.ref_name == 'dev'
+        with:
+          name: "Dev Rolling Build (PRE)"
+          tag_name: dev-pre
+          body_path: release_body.txt
+          files: ${{ env.ZIP_NAME }}
+          draft: false
+          prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

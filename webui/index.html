@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOT - Always On Tethering</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <script type="module" crossorigin src="./index.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header blur-box" unresolved>
+        <md-icon-button class="back-button">
+            <md-icon flip-icon-in-rtl="true">
+                <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px"><path d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            </md-icon>
+        </md-icon-button>
+        <div class="title-container">
+            <div>
+                <span id="title">AOT Tethering </span>
+                <span id="version-text">v1.0.0</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <span id="usage-anchor"></span>
+            <md-icon-button id="usage-menu-button">
+                <md-icon><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg></md-icon>
+            </md-icon-button>
+            <md-menu id="usage-menu" anchor="usage-menu-button">
+                <md-menu-item id="developer-credit">
+                    <div slot="headline">Developer: Prateek Maru (@xprateek)</div>
+                </md-menu-item>
+                <md-menu-item id="source-code">
+                    <div slot="headline">Source Code</div>
+                </md-menu-item>
+            </md-menu>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="content-container">
+        <!-- page content will be loaded here -->
+    </div>
+
+    <!-- Custom background -->
+    <div class="custom-bg" id="custom-bg">
+        <img id="custom-bg-img" src="" alt="">
+    </div>
+
+    <!-- Prompt -->
+    <div class="prompt-container" unresolved>
+        <div class="prompt" id="prompt">
+            <span class="prompt-text"></span>
+            <md-text-button class="prompt-btn"></md-text-button>
+        </div>
+    </div>
+    <!-- Bottom Bar -->
+    <div class="bottom-bar blur-box" unresolved>
+        <div class="bottom-bar-item" id="home" page="home" selected>
+            <div class="bottom-bar-item-text">
+                <span>Dashboard</span>
+            </div>
+        </div>
+        <div class="bottom-bar-item" id="settings" page="settings">
+            <div class="bottom-bar-item-text">
+                <span>Settings</span>
+            </div>
+        </div>
+        <div class="bottom-bar-item" id="logs" page="logs">
+            <div class="bottom-bar-item-text">
+                <span>Logs</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

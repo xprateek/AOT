@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Systemstandard</string>
+    <!-- Status -->
+    <string name="status_title">Status</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Entwickler-Option aktiviert</string>
+    <string name="global_dev_opt_true">Entwickler-Option bereits aktiviert</string>
+    <string name="global_saved">Datei gespeichert in %s</string>
+    <string name="global_save_fail">Fehler beim Speichern der Datei</string>
+    <string name="global_file_too_large">Nur Umbenennung wird auf großen Dateien unterstützt</string>
+    <string name="global_file_name_empty">Der Dateiname darf nicht leer sein</string>
+    <string name="global_show_all">Alle anzeigen %d mehr</string>
+    <string name="global_close">Schließen</string>
+    <string name="global_cancel">Abbrechen</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Nicht unterstützt</string>
+    <!-- Query -->
+    <string name="query_title">Host-Abfrage</string>
+    <string name="query_search">Suchen</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Typ</string>
+    <string name="query_host_domain">Domain</string>
+    <string name="query_remove_prompt">Whitelist %s</string>
+    <string name="query_remove_error">Fehler beim Hinzufügen zur Whitelist %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Kontrollzentrum</string>
+    <string name="control_panel_language">Sprache</string>
+    <string name="control_panel_bad_translation">Schlechte Übersetzung</string>
+    <string name="control_panel_add_language">Füge eine Sprache hinzu</string>
+    <string name="control_panel_get_tiles">QS-Kachel abrufen</string>
+    <string name="control_panel_installing">Installiere...</string>
+    <string name="control_panel_installed">Installiert, bitte aktivieren Sie die SU-Berechtigung für die AOT Tethering-Anwendung</string>
+    <string name="control_panel_download_fail">Download fehlgeschlagen, bitte überprüfen Sie Ihre Internetverbindung</string>
+    <string name="control_panel_install_fail">Installationsfehler, bitte installieren Sie manuell aus /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Das Modul aktualisieren</string>
+    <string name="control_panel_update_true">Modulaktualisierung aktiviert</string>
+    <string name="control_panel_update_false">Modulaktualisierung deaktiviert</string>
+    <string name="control_panel_action_redirect">Umleitung der Aktion</string>
+    <string name="control_panel_action_prompt_true">Aktivierte Magisk-Aktion leitet WebUI um</string>
+    <string name="control_panel_action_prompt_false">Deaktivierte Magisk-Aktion leitet WebUI um</string>
+    <string name="control_panel_update_hosts_daily">Tägliche Aktualisierung der Hosts</string>
+    <string name="control_panel_cron_true">Crontab-Eintrag hinzugefügt</string>
+    <string name="control_panel_cron_false">Crontab-Eintrag entfernt</string>
+    <string name="control_panel_monitor_network_activity">Netzwerkaktivität überwachen</string>
+    <!-- Custom -->
+    <string name="custom_title">Benutzerdefinierte Regeln</string>
+    <string name="custom_guide1">Benutzerdefinierte Weiterleitungen hier hinzufügen</string>
+    <string name="custom_example">Beispiel:</string>
+    <string name="custom_format">Format:</string>
+    <string name="custom_warning">WARNUNG: Benutzerdefinierte Regeln werden sowohl beim Start als auch beim Zurücksetzen geladen!</string>
+    <string name="custom_prompt_fail">%s ist bereits in der benutzerdefinierten Regel</string>
+    <!-- Import -->
+    <string name="import_custom_title">Benutzerdefinierte Regeln importieren</string>
+    <!-- Source -->
+    <string name="source_title">Quellen</string>
+    <string name="source_guide1">Quellen auf der schwarzen Liste</string>
+    <string name="source_guide2">Benutzerdefinierte Regelsätze</string>
+    <string name="source_format">Format:</string>
+    <string name="source_example">Beispiel:</string>
+    <string name="source_source_page">Mehr Quellen</string>
+    <string name="source_prompt_fail">%s Ist bereits in der Quelle enthalten</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Schwarze Liste</string>
+    <string name="blacklist_guide1">Alles, was Sie hier eintragen, kommt auf die schwarze Liste.</string>
+    <string name="blacklist_example">Beispiel:</string>
+    <string name="blacklist_prompt_fail">%s Ist bereits auf der schwarzen Liste</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Ausnahmeliste</string>
+    <string name="whitelist_guide1">Alles, was Sie hier hinzufügen, wird nicht in die schwarze Liste aufgenommen.</string>
+    <string name="whitelist_example">Beispiel:</string>
+    <string name="whitelist_prompt_fail">%s Ist bereits in der Ausnahmeliste</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Ausnahmeliste Quellen</string>
+    <string name="sources_whitelist_guide1">Fügen Sie hier Ausnahmeliste-Quellen hinzu</string>
+    <string name="sources_whitelist_format">Format:</string>
+    <string name="sources_whitelist_example">Beispiel:</string>
+    <string name="sources_whitelist_prompt_fail">%s Ist bereits in der Ausnahmeliste-Quelle</string>
+    <!-- Mode -->
+    <string name="mode_button">Modus %s</string>
+    <string name="mode_title">Betriebsmodus</string>
+    <string name="mode_detail">Erfahren Sie mehr</string>
+    <string name="mode_reset">Zurücksetzen (Auto)</string>
+    <!-- More -->
+    <string name="more_documents">Dokumente</string>
+    <string name="more_sources">Quellen</string>
+    <string name="more_usage">Verwendung</string>
+    <string name="more_modes">Modi</string>
+    <string name="more_hiding">Verstecken</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Unterstützung</string>
+    <string name="more_support_issue">Problem melden</string>
+    <string name="more_support_update_canary">Aktualisiere auf die aktuelle canary-Version</string>
+    <string name="more_support_update_success">Aktualisierung erfolgreich, ein Neustart ist zur Nutzung erforderlich</string>
+    <string name="more_support_update_fail">Update fehlgeschlagen. Bitte manuell von GitHub herunterladen und installieren</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Löschen bestätigen?</string>
+    <string name="confirmation_message">Sind Sie sicher, dass Sie entfernen möchten</string>
+    <string name="confirmation_remove">Entfernen</string>
+    <!-- Footer -->
+    <string name="footer_home">Startseite</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Mehr</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Sicherung &amp; Wiederherstellung</string>
+    <string name="backup_restore_export">Konfiguration exportieren</string>
+    <string name="backup_restore_restore">Konfiguration wiederherstellen</string>
+    <string name="backup_restore_exported">Konfiguration gespeichert in %s</string>
+    <string name="backup_restore_export_fail">Fehler beim Exportieren der Konfiguration</string>
+    <string name="backup_restore_invalid_config">Ungültige Bindhosts-Konfiguration</string>
+    <string name="backup_restore_restored">Konfiguration erfolgreich wiederhergestellt</string>
+    <string name="backup_restore_restore_fail">Fehler beim Wiederherstellen der Konfiguration</string>
+</resources>

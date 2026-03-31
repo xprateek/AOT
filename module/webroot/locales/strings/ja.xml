@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">システムの言語</string>
+    <!-- Status -->
+    <string name="status_title">ステータス</string>
+    <!-- Global -->
+    <string name="global_dev_opt">開発者オプションが有効になりました</string>
+    <string name="global_dev_opt_true">開発者オプションは既に有効化されています</string>
+    <string name="global_saved">ファイルの保存先 %s</string>
+    <string name="global_save_fail">ファイルの保存に失敗</string>
+    <string name="global_file_too_large">大きいファイルの編集はサポートされていません</string>
+    <string name="global_file_name_empty">ファイル名を空にすることはできません</string>
+    <string name="global_show_all">全て表示 %d もっと見る</string>
+    <string name="global_close">閉じる</string>
+    <string name="global_cancel">キャンセル</string>
+    <string name="global_action">アクション</string>
+    <string name="global_unsupported">対応していません</string>
+    <!-- Query -->
+    <string name="query_title">ホストクエリ</string>
+    <string name="query_search">検索</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">タイプ</string>
+    <string name="query_host_domain">ドメイン</string>
+    <string name="query_remove_prompt">ホワイトリストに追加されました %s</string>
+    <string name="query_remove_error">ホワイトリストへの追加に失敗 %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">コントロールパネル</string>
+    <string name="control_panel_language">言語</string>
+    <string name="control_panel_bad_translation">誤訳の訂正</string>
+    <string name="control_panel_add_language">翻訳の追加</string>
+    <string name="control_panel_get_tiles">QSタイルへの追加</string>
+    <string name="control_panel_installing">インストール中...</string>
+    <string name="control_panel_installed">インストールが完了しました。アプリにSU権限を与えてください</string>
+    <string name="control_panel_download_fail">ダウンロードに失敗しました。インターネットに接続されているか確認してください</string>
+    <string name="control_panel_install_fail">インストールに失敗しました。/sdcard/Download/AOT Tethering-app から手動でインストールしてください</string>
+    <string name="control_panel_module_update">モジュールアップデート</string>
+    <string name="control_panel_update_true">モジュールのアップデートが有効化されました</string>
+    <string name="control_panel_update_false">モジュールのアップデートが無効化されました</string>
+    <string name="control_panel_action_redirect">Action をリダイレクト</string>
+    <string name="control_panel_action_prompt_true">Magisk Action は WebUI へリダイレクトされます</string>
+    <string name="control_panel_action_prompt_false">Magisk Action は WebUI へリダイレクトされなくなりました</string>
+    <string name="control_panel_update_hosts_daily">毎日自動で Hosts を更新</string>
+    <string name="control_panel_cron_true">Crontab のエントリーが追加されました</string>
+    <string name="control_panel_cron_false">Crontab のエントリーが削除されました</string>
+    <string name="control_panel_monitor_network_activity">ネットワークアクティビティモニター</string>
+    <!-- Custom -->
+    <string name="custom_title">カスタムルール</string>
+    <string name="custom_guide1">ここにカスタムリダイレクトを追加します</string>
+    <string name="custom_example">例:</string>
+    <string name="custom_format">フォーマット:</string>
+    <string name="custom_warning">警告: カスタムルールは実行時とリセット時の両方でロードされます！</string>
+    <string name="custom_prompt_fail">%s は、すでにカスタムルールに存在します</string>
+    <!-- Import -->
+    <string name="import_custom_title">カスタムルールをインポート</string>
+    <!-- Source -->
+    <string name="source_title">ソース</string>
+    <string name="source_guide1">ブラックリストのソース</string>
+    <string name="source_guide2">カスタムルールセット</string>
+    <string name="source_format">フォーマット:</string>
+    <string name="source_example">例:</string>
+    <string name="source_source_page">他のソース</string>
+    <string name="source_prompt_fail">%s は、すでにソースに存在します</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">ブラックリスト</string>
+    <string name="blacklist_guide1">ここに追加したものはすべてブラックリストに追加され、ブロックされます</string>
+    <string name="blacklist_example">例:</string>
+    <string name="blacklist_prompt_fail">%s は、すでにブラックリストに存在します</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">ホワイトリスト</string>
+    <string name="whitelist_guide1">ここに追加したものはすべてホワイトリストに追加され、ブロックされません</string>
+    <string name="whitelist_example">例:</string>
+    <string name="whitelist_prompt_fail">%s は、すでにホワイトリストに存在します</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">ホワイトリストのソース</string>
+    <string name="sources_whitelist_guide1">ここにホワイトリストのソースを追加します</string>
+    <string name="sources_whitelist_format">フォーマット:</string>
+    <string name="sources_whitelist_example">例:</string>
+    <string name="sources_whitelist_prompt_fail">%s は、すでにホワイトリストのソースに存在します</string>
+    <!-- Mode -->
+    <string name="mode_button">モード %s</string>
+    <string name="mode_title">動作モード</string>
+    <string name="mode_detail">もっと詳しく知る</string>
+    <string name="mode_reset">リセット (自動)</string>
+    <!-- More -->
+    <string name="more_documents">ドキュメント</string>
+    <string name="more_sources">ソース</string>
+    <string name="more_usage">使い方</string>
+    <string name="more_modes">動作モードについて</string>
+    <string name="more_hiding">Root 検出から隠すには</string>
+    <string name="more_faq">よくある質問</string>
+    <string name="more_support">サポート</string>
+    <string name="more_support_issue">問題を報告</string>
+    <string name="more_support_update_canary">最新の Canary バージョンに更新</string>
+    <string name="more_support_update_success">更新に成功しました。再起動すると有効化されます</string>
+    <string name="more_support_update_fail">更新に失敗しました。GitHub から手動でダウンロードしてインストールしてください</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">削除の確認</string>
+    <string name="confirmation_message">本当に削除しますか？</string>
+    <string name="confirmation_remove">削除</string>
+    <!-- Footer -->
+    <string name="footer_home">ホーム</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">その他</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">バックアップ &amp; リストア</string>
+    <string name="backup_restore_export">設定をバックアップ</string>
+    <string name="backup_restore_restore">設定をリストア</string>
+    <string name="backup_restore_exported">設定ファイルの保存先 %s</string>
+    <string name="backup_restore_export_fail">設定のエクスポートに失敗</string>
+    <string name="backup_restore_invalid_config">無効な AOT Tethering の設定です</string>
+    <string name="backup_restore_restored">設定のリストアに成功</string>
+    <string name="backup_restore_restore_fail">設定のリストアに失敗</string>
+</resources>

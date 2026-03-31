@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Systemstandard</string>
+    <!-- Status -->
+    <string name="status_title">Status</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Utvecklaralternativ aktiverat</string>
+    <string name="global_dev_opt_true">Utvecklaralternativet är redan aktiverat</string>
+    <string name="global_saved">Filen sparad till %s</string>
+    <string name="global_save_fail">Det gick inte att spara filen</string>
+    <string name="global_file_too_large">Filredigering stöds inte på stora filer</string>
+    <string name="global_file_name_empty">Filnamnet får inte vara tomt</string>
+    <string name="global_show_all">Visa allt %d Mer</string>
+    <string name="global_close">Stäng</string>
+    <string name="global_cancel">Avbryt</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Stöds inte</string>
+    <!-- Query -->
+    <string name="query_title">Värdförfrågan</string>
+    <string name="query_search">Sök</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Typ</string>
+    <string name="query_host_domain">Domän</string>
+    <string name="query_remove_prompt">Vitlistad %s</string>
+    <string name="query_remove_error">Det gick inte att vitlista %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Kontrollpanel</string>
+    <string name="control_panel_language">Språk</string>
+    <string name="control_panel_bad_translation">Dålig översättning</string>
+    <string name="control_panel_add_language">Lägg till ett språk</string>
+    <string name="control_panel_get_tiles">Skaffa QS-tile</string>
+    <string name="control_panel_installing">Installerar...</string>
+    <string name="control_panel_installed">Installerad, aktivera SU-behörighet för AOT Tethering-appen</string>
+    <string name="control_panel_download_fail">Det gick inte att ladda ner, kontrollera din internetanslutning</string>
+    <string name="control_panel_install_fail">Det gick inte att installera, installera manuellt från /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Modulen uppdaterad</string>
+    <string name="control_panel_update_true">Moduluppdatering aktiverad</string>
+    <string name="control_panel_update_false">Moduluppdatering inaktiverad</string>
+    <string name="control_panel_action_redirect">Åtgärdsomdirigering</string>
+    <string name="control_panel_action_prompt_true">Aktiverad Magisk åtgärdsomdirigerings-WebUI</string>
+    <string name="control_panel_action_prompt_false">Inaktiverad Magisk åtgärdsomdirigerings-WebUI</string>
+    <string name="control_panel_update_hosts_daily">Uppdatera Hosts dagligen</string>
+    <string name="control_panel_cron_true">Crontab-post tillagd</string>
+    <string name="control_panel_cron_false">Crontab-post borttagen</string>
+    <string name="control_panel_monitor_network_activity">Övervaka nätverksaktivitet</string>
+    <!-- Custom -->
+    <string name="custom_title">Anpassade regler</string>
+    <string name="custom_guide1">Lägg till anpassade omdirigeringar här</string>
+    <string name="custom_example">Exempel:</string>
+    <string name="custom_format">Format:</string>
+    <string name="custom_warning">VARNING: Anpassade regler laddas vid både körning och återställning!</string>
+    <string name="custom_prompt_fail">%s är redan i anpassade regler</string>
+    <!-- Import -->
+    <string name="import_custom_title">Importera anpassade regler</string>
+    <!-- Source -->
+    <string name="source_title">Källor</string>
+    <string name="source_guide1">Svartlistade källor</string>
+    <string name="source_guide2">Anpassade regeluppsättningar</string>
+    <string name="source_format">Format:</string>
+    <string name="source_example">Exempel:</string>
+    <string name="source_source_page">Fler källor</string>
+    <string name="source_prompt_fail">%s finns redan i källor</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Svartlista</string>
+    <string name="blacklist_guide1">Everything you add here will be blacklisted</string>
+    <string name="blacklist_example">Exempel:</string>
+    <string name="blacklist_prompt_fail">%s finns redan i svartlistan</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Vitlista</string>
+    <string name="whitelist_guide1">Allt du lägger till här kommer inte att svartlistas</string>
+    <string name="whitelist_example">Exempel:</string>
+    <string name="whitelist_prompt_fail">%s finns redan i vitlistan</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Vitlistkällor</string>
+    <string name="sources_whitelist_guide1">Lägg till vitlistkällor här</string>
+    <string name="sources_whitelist_format">Format:</string>
+    <string name="sources_whitelist_example">Exempel:</string>
+    <string name="sources_whitelist_prompt_fail">%s finns redan i vitlistkällan</string>
+    <!-- Mode -->
+    <string name="mode_button">Läge %s</string>
+    <string name="mode_title">Driftläge</string>
+    <string name="mode_detail">Lär dig mer</string>
+    <string name="mode_reset">Återställ (automatiskt)</string>
+    <!-- More -->
+    <string name="more_documents">Dokument</string>
+    <string name="more_sources">Källor</string>
+    <string name="more_usage">Användande</string>
+    <string name="more_modes">Lägen</string>
+    <string name="more_hiding">Dolda</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Support</string>
+    <string name="more_support_issue">Rapportera ett problem</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Bekräfta ta bort?</string>
+    <string name="confirmation_message">Är du säker på att du vill ta bort</string>
+    <string name="confirmation_remove">Ta bort</string>
+    <!-- Footer -->
+    <string name="footer_home">Hem</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Mer</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Säkerhetskopiera och återställa</string>
+    <string name="backup_restore_export">Exportera konfiguration</string>
+    <string name="backup_restore_restore">Återställ konfiguration</string>
+    <string name="backup_restore_exported">Konfiguration sparad till %s</string>
+    <string name="backup_restore_export_fail">Det gick inte att exportera konfiguration</string>
+    <string name="backup_restore_invalid_config">Ogiltig AOT Tethering-konfiguration</string>
+    <string name="backup_restore_restored">Konfiguration återställd</string>
+    <string name="backup_restore_restore_fail">Det gick inte att återställa konfigurationen</string>
+</resources>

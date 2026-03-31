@@ -1,0 +1,7 @@
+id=aot-tethering
+name=Always-On Tethering (AOT)
+version=v1.0.0
+versionCode=10000
+author=xprateek
+description=[v1.0.0 Release Candidate] AOT | Always-On Ethernet & USB Tethering Bridge. High-performance, automated NAT routing with integrated ADB over Tethering and boot-time state recovery.
+updateJson=https://raw.githubusercontent.com/xprateek/AOT-Tether/main/update.json

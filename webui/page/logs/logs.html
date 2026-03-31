@@ -1,0 +1,19 @@
+<div class="body-content constant-height">
+    <!-- Status box -->
+    <div class="box translucent">
+        <h2>AOT Diagnostics</h2>
+        <p>Real-time status of NAT routing, USB interfaces, and kernel events.</p>
+        
+        <!-- Grid for buttons to ensure perfect alignment -->
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px;">
+            <md-filled-button id="refresh-logs" style="grid-column: span 2; --md-filled-button-container-height: 36px; --md-filled-button-leading-space: 16px; --md-filled-button-trailing-space: 16px; font-size: 0.9em;">Refresh</md-filled-button>
+            <md-outlined-button id="copy-logs" style="--md-outlined-button-container-height: 36px; --md-outlined-button-leading-space: 16px; --md-outlined-button-trailing-space: 16px; font-size: 0.9em;">Copy Logs</md-outlined-button>
+            <md-outlined-button id="clear-logs" style="--md-outlined-button-container-height: 36px; --md-outlined-button-leading-space: 16px; --md-outlined-button-trailing-space: 16px; font-size: 0.9em;">Clear History</md-outlined-button>
+        </div>
+    </div>
+
+    <!-- Log List -->
+    <div class="box translucent" id="log-container" style="background: #000; color: #0f0; font-family: monospace; font-size: 0.85em; max-height: 50vh; overflow-y: auto; padding: 12px; border-radius: 8px;">
+        <pre id="log-content" style="margin: 0; white-space: pre-wrap; word-break: break-all;">Loading logs...</pre>
+    </div>
+</div>

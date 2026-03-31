@@ -1,0 +1,118 @@
+<div class="body-content constant-height">
+    <!-- Header/Info -->
+    <div class="box translucent">
+        <h2>Network Configuration</h2>
+        <p>Define custom IP and DNS rules for the AOT bridge. These values will be used for both USB and Ethernet NAT routing.</p>
+    </div>
+
+    <!-- IP Settings -->
+    <div class="box translucent">
+        <style>
+            .input-group {
+                margin-bottom: 24px;
+            }
+            .input-label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 0.9em;
+                opacity: 0.8;
+            }
+            .dns-preset-row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-top: 8px;
+            }
+            .dns-preset-row md-assist-chip {
+                --md-assist-chip-container-height: 32px;
+            }
+            .setting-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 16px;
+            }
+            .section-divider {
+                border: none;
+                border-top: 1px solid var(--md-sys-color-outline-variant);
+                margin: 24px 0;
+            }
+        </style>
+
+        <div class="input-group">
+            <span class="input-label">Gateway IP (Phone)</span>
+            <md-outlined-text-field id="custom-gateway" label="e.g. 10.0.0.1" value="10.0.0.1" style="width: 100%;"></md-outlined-text-field>
+        </div>
+
+        <div class="input-group">
+            <span class="input-label">Subnet Mask</span>
+            <md-outlined-text-field id="custom-netmask" label="e.g. 255.255.255.0" value="255.255.255.0" style="width: 100%;"></md-outlined-text-field>
+        </div>
+
+        <div class="input-group">
+            <span class="input-label">Primary DNS</span>
+            <md-outlined-text-field id="custom-dns1" label="e.g. 8.8.8.8" value="8.8.8.8" style="width: 100%;"></md-outlined-text-field>
+            <div class="dns-preset-row">
+                <md-assist-chip label="Google" data-dns1="8.8.8.8" data-dns2="8.8.4.4" class="dns-chip"></md-assist-chip>
+                <md-assist-chip label="Cloudflare" data-dns1="1.1.1.1" data-dns2="1.0.0.1" class="dns-chip"></md-assist-chip>
+                <md-assist-chip label="Quad9" data-dns1="9.9.9.9" data-dns2="149.112.112.112" class="dns-chip"></md-assist-chip>
+                <md-assist-chip label="AdGuard" data-dns1="94.140.14.14" data-dns2="94.140.15.15" class="dns-chip"></md-assist-chip>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <span class="input-label">Fallback DNS</span>
+            <md-outlined-text-field id="custom-dns2" label="e.g. 8.8.4.4" value="8.8.4.4" style="width: 100%;"></md-outlined-text-field>
+        </div>
+
+        <div style="margin-top: 16px;">
+            <md-filled-button id="save-network" style="width: 100%; --md-filled-button-container-height: 36px; --md-filled-button-leading-space: 16px; --md-filled-button-trailing-space: 16px; font-size: 0.9em;">Save Network Config</md-filled-button>
+        </div>
+    </div>
+
+    <!-- ADB over Tethering Section -->
+    <div class="box translucent">
+        <h2>ADB over Tethering</h2>
+        
+        <p style="font-size: 0.9em; color: var(--md-sys-color-primary); margin-bottom: 16px;">
+            <strong>Advanced Settings:</strong> Use defaults if you don't want confusion in your life.
+        </p>
+
+        <p style="font-size: 0.85em; opacity: 0.8; margin-bottom: 16px;">
+            Enables TCP ADB on all network interfaces. Once active, connect from any device on the tethered network using:
+            <br><code>adb connect &lt;Gateway IP&gt;:&lt;port&gt;</code>
+            <br><small>e.g. if Gateway is <strong>10.0.0.1</strong>: <code>adb connect 10.0.0.1:5555</code></small>
+        </p>
+
+        <div class="setting-item">
+            <span>Always-On ADB over Tethering</span>
+            <md-switch id="wifiadb-switch"></md-switch>
+        </div>
+
+        <div class="input-group">
+            <span class="input-label">ADB Port (1–65535)</span>
+            <md-outlined-text-field id="wifiadb-port" label="Default: 5555" value="5555" type="number" style="width: 100%;"></md-outlined-text-field>
+        </div>
+
+        <div class="setting-item">
+            <span>Enable ADB Logging</span>
+            <md-switch id="wifiadb-log-switch"></md-switch>
+        </div>
+
+        <div class="input-group" style="margin-bottom: 16px;">
+            <span class="input-label">Status Check Frequency (seconds, 1–10)</span>
+            <md-outlined-text-field id="wifiadb-frequency" label="Default: 5" value="5" type="number" style="width: 100%;"></md-outlined-text-field>
+        </div>
+
+        <div style="margin-top: 16px;">
+            <md-filled-button id="save-adb" style="width: 100%; --md-filled-button-container-height: 36px; --md-filled-button-leading-space: 16px; --md-filled-button-trailing-space: 16px; font-size: 0.9em;">Save ADB Config</md-filled-button>
+        </div>
+    </div>
+
+    <!-- Warning/Help -->
+    <div class="box translucent" style="border: 1px solid var(--md-sys-color-outline-variant);">
+        <p style="font-size: 0.85em; opacity: 0.8; margin: 0;">
+            <strong>Note:</strong> After saving network config, toggle Tethering <strong>OFF and ON</strong> for new IP/DNS rules to take effect. ADB over Tethering changes take effect immediately.
+        </p>
+    </div>
+</div>

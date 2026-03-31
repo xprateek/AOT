@@ -1,0 +1,72 @@
+<div class="body-content constant-height">
+    <!-- Status box -->
+    <div class="box translucent" id="status-box">
+        <md-ripple></md-ripple>
+        <h2 id="status-header">System Check</h2>
+        <p id="status-text">Initializing AOT Backend...</p>
+        <p id="gateway-ip-text" style="font-size: 0.85em; margin-top: 8px; opacity: 0.8; font-family: monospace;">Active Gateway: Checking...</p>
+    </div>
+
+    <!-- ADB Status Card -->
+    <div class="box translucent" id="adb-status-box">
+        <h2 style="margin-bottom: 12px;">ADB Status</h2>
+        <p id="adb-status-text" style="margin-bottom: 12px; font-weight: 500;">Checking ADB status...</p>
+        
+        <div id="adb-connect-container" style="display: none;">
+            <p style="font-size: 0.85em; opacity: 0.8; margin-bottom: 8px;">Run this command connect:</p>
+            <div style="background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; font-family: monospace; border: 1px solid var(--md-sys-color-outline-variant); margin-bottom: 16px;">
+                <code id="adb-cmd-dashboard">adb connect 10.0.0.1:5555</code>
+            </div>
+            <md-filled-button id="copy-adb-dashboard" style="width: 100%; --md-filled-button-container-height: 36px; --md-filled-button-leading-space: 16px; --md-filled-button-trailing-space: 16px; font-size: 0.9em;">Copy Connect Command</md-filled-button>
+        </div>
+    </div>
+
+    <!-- v1 Operator Console: Diagnostics & Tools -->
+    <div class="box translucent" id="diag-box">
+        <h2 style="margin-bottom: 16px;">System Diagnostics & Tools</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+            <md-filled-button id="run-probe" style="--md-filled-button-container-height: 36px; font-size: 0.85em;">Run Probe</md-filled-button>
+            <md-filled-button id="run-verify" style="--md-filled-button-container-height: 36px; font-size: 0.85em;">Verify Traffic</md-filled-button>
+        </div>
+        <md-outlined-button id="run-diag" style="width: 100%; --md-outlined-button-container-height: 36px; font-size: 0.85em;">Export Deep Diag</md-outlined-button>
+        
+        <div id="diag-output-container" style="display: none; margin-top: 16px; background: rgba(0,0,0,0.4); padding: 12px; border-radius: 8px; border: 1px solid var(--md-sys-color-outline-variant);">
+            <p style="font-size: 0.8em; font-family: monospace; white-space: pre-wrap; margin: 0;" id="diag-output-text">Output will appear here...</p>
+        </div>
+    </div>
+
+    <!-- Tethering Config -->
+    <div class="box translucent" id="controls-box">
+        <style>
+            .setting-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 24px;
+            }
+        </style>
+        <h2>Tethering Configuration</h2>
+        
+        <div class="setting-item">
+            <span>Always-On USB Tethering</span>
+            <md-switch id="usb-switch"></md-switch>
+        </div>
+        
+        <div class="setting-item">
+            <span>Always-On Ethernet Tethering</span>
+            <md-switch id="eth-switch"></md-switch>
+        </div>
+
+        <div class="setting-item" style="flex-direction: column; align-items: flex-start; background: rgba(0,0,0,0.1); padding: 16px; border-radius: 12px; margin-top: 16px;">
+            <strong style="margin-bottom: 8px; color: var(--md-sys-color-primary);">Manual Connection Required</strong>
+            <span style="font-size: 0.9em; opacity: 0.9; margin-bottom: 8px;">Because Android DHCP is bypassed for Always-On functionality, configure your connected device's Network Adapter manually:</span>
+            <ul style="font-size: 0.85em; opacity: 0.8; margin: 0; padding-left: 20px;">
+                <li><strong>IP Address:</strong> <span id="instr-ip">10.0.0.2</span></li>
+                <li><strong>Subnet Mask:</strong> <span id="instr-mask">255.255.255.0</span></li>
+                <li><strong>Router/Gateway:</strong> <span id="instr-gw">10.0.0.1</span></li>
+                <li><strong>DNS:</strong> <span id="instr-dns">8.8.8.8</span></li>
+            </ul>
+        </div>
+    </div>
+
+</div>

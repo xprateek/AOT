@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">系統預設</string>
+    <!-- Status -->
+    <string name="status_title">目前狀態</string>
+    <!-- Global -->
+    <string name="global_dev_opt">開發者模式已啟用</string>
+    <string name="global_dev_opt_true">您已處於開發者模式</string>
+    <string name="global_reboot_now">重啟生效</string>
+    <string name="global_reboot">重啟</string>
+    <string name="global_rebooting">正在重啟...</string>
+    <string name="global_saved">文件已儲存至 %s</string>
+    <string name="global_save_fail">文件儲存失敗</string>
+    <string name="global_file_too_large">文件編輯不支援大文件</string>
+    <string name="global_file_name_empty">檔案名不能為空</string>
+    <string name="global_show_all">顯示剩餘 %d 個</string>
+    <string name="global_close">關閉</string>
+    <string name="global_cancel">取消</string>
+    <string name="global_action">執行</string>
+    <string name="global_unsupported">不支持</string>
+    <!-- Query -->
+    <string name="query_title">Host 查詢</string>
+    <string name="query_search">搜尋</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">類型</string>
+    <string name="query_host_domain">域名</string>
+    <string name="query_remove_prompt">已移除 %s</string>
+    <string name="query_remove_error">移除失敗 %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">控制面板</string>
+    <string name="control_panel_language">語言</string>
+    <string name="control_panel_bad_translation">回饋翻譯錯誤</string>
+    <string name="control_panel_add_language">新增語言</string>
+    <string name="control_panel_get_tiles">獲取快速設定（QS）磁帖</string>
+    <string name="control_panel_installing">正在安裝...</string>
+    <string name="control_panel_installed">安裝完成, 請授予 BindHosts app SU 權限</string>
+    <string name="control_panel_download_fail">下載失敗，請檢查您的網路</string>
+    <string name="control_panel_install_fail">安裝失敗，請到 /sdcard/Download/AOT Tethering-app 手動安裝</string>
+    <string name="control_panel_module_update">模組更新</string>
+    <string name="control_panel_update_true">已開啟模組更新</string>
+    <string name="control_panel_update_false">已關閉模組更新</string>
+    <string name="control_panel_action_redirect">Action 跳轉 WebUI</string>
+    <string name="control_panel_action_prompt_true">已開啟 Action 跳轉 WebUI</string>
+    <string name="control_panel_action_prompt_false">已關閉 Action 跳轉 WebUI</string>
+    <string name="control_panel_update_hosts_daily">每日自動更新 hosts</string>
+    <string name="control_panel_cron_true">已開啟 hosts 每日更新</string>
+    <string name="control_panel_cron_false">已關閉 hosts 每日更新</string>
+    <string name="control_panel_monitor_network_activity">監控網路活動</string>
+    <!-- Custom -->
+    <string name="custom_title">自訂規則</string>
+    <string name="custom_guide1">在此處添加自訂跳轉規則</string>
+    <string name="custom_example">例如：</string>
+    <string name="custom_format">格式</string>
+    <string name="custom_warning">警告：自訂規則在模組執行期間和重設後均會載入！</string>
+    <string name="custom_prompt_fail">%s 已存在於自訂規則內</string>
+    <!-- Import -->
+    <string name="import_custom_title">匯入自訂規則</string>
+    <!-- Source -->
+    <string name="source_title">規則集</string>
+    <string name="source_guide1">黑名單集</string>
+    <string name="source_guide2">自訂規則</string>
+    <string name="source_format">格式</string>
+    <string name="source_example">例如：</string>
+    <string name="source_source_page">更多規則集</string>
+    <string name="source_prompt_fail">%s 已存在於規則集內</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">黑名單</string>
+    <string name="blacklist_guide1">添加到此處的域名均會被封鎖</string>
+    <string name="blacklist_example">例如：</string>
+    <string name="blacklist_prompt_fail">%s 已存在於黑名單內</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">白名單</string>
+    <string name="whitelist_guide1">添加到此處的域名均會被放行</string>
+    <string name="whitelist_example">例如：</string>
+    <string name="whitelist_prompt_fail">%s 已存在於白名單內</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">白名單集</string>
+    <string name="sources_whitelist_guide1">在此處添加白名單集</string>
+    <string name="sources_whitelist_format">格式</string>
+    <string name="sources_whitelist_example">例如：</string>
+    <string name="sources_whitelist_prompt_fail">%s 已存在於白名單集內</string>
+    <!-- Mode -->
+    <string name="mode_button">模式 %s</string>
+    <string name="mode_title">工作模式</string>
+    <string name="mode_detail">了解更多</string>
+    <string name="mode_reset">重設（自動）</string>
+    <!-- More -->
+    <string name="more_documents">文件</string>
+    <string name="more_sources">規則集</string>
+    <string name="more_usage">使用說明</string>
+    <string name="more_modes">模式</string>
+    <string name="more_hiding">隱藏</string>
+    <string name="more_faq">常見問題</string>
+    <string name="more_support">支援</string>
+    <string name="more_support_issue">回饋問題</string>
+    <string name="more_support_update_canary">下載最新測試版</string>
+    <string name="more_support_update_success">更新成功，重啟生效</string>
+    <string name="more_support_update_fail">更新失敗， 請到 GitHub 下載並安裝</string>
+    <string name="more_support_checking_update">檢查更新中...</string>
+    <string name="more_support_no_update">當前已是最新版本</string>
+    <string name="more_support_update_locales">更新翻譯包</string>
+    <string name="more_support_update_locales_failed">翻譯包更新失敗</string>
+    <string name="more_support_view_webui_log">查看 WebUI 日誌</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">確認刪除？</string>
+    <string name="confirmation_message">確認刪除</string>
+    <string name="confirmation_remove">刪除</string>
+    <!-- Footer -->
+    <string name="footer_home">首頁</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">更多</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">備份與復原</string>
+    <string name="backup_restore_export">匯出配置</string>
+    <string name="backup_restore_restore">復原配置</string>
+    <string name="backup_restore_exported">配置已儲存至 %s</string>
+    <string name="backup_restore_export_fail">配置匯出失敗</string>
+    <string name="backup_restore_invalid_config">無效的 AOT Tethering 配置</string>
+    <string name="backup_restore_restored">配置復原成功</string>
+    <string name="backup_restore_restore_fail">配置復原失敗</string>
+</resources>

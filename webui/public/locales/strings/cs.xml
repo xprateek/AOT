@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Systémové výchozí</string>
+    <!-- Status -->
+    <string name="status_title">Stav</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Možnost vývojáře povolena</string>
+    <string name="global_dev_opt_true">Možnost vývojáře je již povolena</string>
+    <string name="global_saved">Soubor uložen do %s</string>
+    <string name="global_save_fail">Nepodařilo se uložit soubor</string>
+    <string name="global_file_too_large">Jen přejmenování je podporováno na velkých souborech</string>
+    <string name="global_file_name_empty">Název souboru nesmí být prázdný</string>
+    <string name="global_show_all">Zobrazit vše %d více</string>
+    <string name="global_close">Zavřít</string>
+    <string name="global_cancel">Zrušit</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Nepodporováno</string>
+    <!-- Query -->
+    <string name="query_title">Dotaz na hostitele</string>
+    <string name="query_search">Hledat</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Typ</string>
+    <string name="query_host_domain">Doména</string>
+    <string name="query_remove_prompt">Povoleno %s</string>
+    <string name="query_remove_error">Nepodařilo se přidat do povolených %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Ovládací panel</string>
+    <string name="control_panel_language">Jazyk</string>
+    <string name="control_panel_bad_translation">Špatný překlad</string>
+    <string name="control_panel_add_language">Přidat jazyk</string>
+    <string name="control_panel_get_tiles">Získat dlaždicu RQ</string>
+    <string name="control_panel_installing">Instalace...</string>
+    <string name="control_panel_installed">Nainstalováno, prosím povolte SU privilegium pro aplikaci AOT Tethering</string>
+    <string name="control_panel_download_fail">Stahování selhalo, prosím zkontrolujte své internetové připojení</string>
+    <string name="control_panel_install_fail">Instalace selhala, prosím nainstalujte ručně z /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Aktualizace modulu</string>
+    <string name="control_panel_update_true">Aktualizace modulu povolena</string>
+    <string name="control_panel_update_false">Aktualizace modulu zakázána</string>
+    <string name="control_panel_action_redirect">Přesměrování akce</string>
+    <string name="control_panel_action_prompt_true">Povoleno přesměrování akce Magisk WebUI</string>
+    <string name="control_panel_action_prompt_false">Zakázáno přesměrování akce Magisk WebUI</string>
+    <string name="control_panel_update_hosts_daily">Denní aktualizace hosts</string>
+    <string name="control_panel_cron_true">Záznam v crontabu přidán</string>
+    <string name="control_panel_cron_false">Záznam v crontabu odstraněn</string>
+    <string name="control_panel_monitor_network_activity">Sledovat síťovou aktivitu</string>
+    <!-- Custom -->
+    <string name="custom_title">Vlastní pravidla</string>
+    <string name="custom_guide1">Přidejte vlastní přesměrování zde</string>
+    <string name="custom_example">Příklad:</string>
+    <string name="custom_format">Formát:</string>
+    <string name="custom_warning">UPOZORNĚNÍ: Vlastní pravidla se načítají při spuštění i resetu!</string>
+    <string name="custom_prompt_fail">%s již existuje ve vlastním pravidle</string>
+    <!-- Import -->
+    <string name="import_custom_title">Importovat vlastní pravidla</string>
+    <!-- Source -->
+    <string name="source_title">Zdroje</string>
+    <string name="source_guide1">Zdroje blacklistu</string>
+    <string name="source_guide2">Vlastní sady pravidel</string>
+    <string name="source_format">Formát:</string>
+    <string name="source_example">Příklad:</string>
+    <string name="source_source_page">Další zdroje</string>
+    <string name="source_prompt_fail">%s již existuje ve zdroji</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Blacklist</string>
+    <string name="blacklist_guide1">Vše, co zde přidáte, bude na blacklistu</string>
+    <string name="blacklist_example">Příklad:</string>
+    <string name="blacklist_prompt_fail">%s již existuje na blacklistu</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Whitelist</string>
+    <string name="whitelist_guide1">Vše, co zde přidáte, nebude na blacklistu</string>
+    <string name="whitelist_example">Příklad:</string>
+    <string name="whitelist_prompt_fail">%s již existuje na whitelistu</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Zdroje Whitelistu</string>
+    <string name="sources_whitelist_guide1">Přidejte zdroje whitelistu zde</string>
+    <string name="sources_whitelist_format">Formát:</string>
+    <string name="sources_whitelist_example">Příklad:</string>
+    <string name="sources_whitelist_prompt_fail">%s již existuje ve zdroji whitelistu</string>
+    <!-- Mode -->
+    <string name="mode_button">Režim %s</string>
+    <string name="mode_title">Provozní režim</string>
+    <string name="mode_detail">Zjistit více</string>
+    <string name="mode_reset">Reset (automatický)</string>
+    <!-- More -->
+    <string name="more_documents">Dokumenty</string>
+    <string name="more_sources">Zdroje</string>
+    <string name="more_usage">Použití</string>
+    <string name="more_modes">Režimy</string>
+    <string name="more_hiding">Skrýt</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Podpora</string>
+    <string name="more_support_issue">Nahlásit problém</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Potvrdit odstranění?</string>
+    <string name="confirmation_message">Opravdu chcete odstranit</string>
+    <string name="confirmation_remove">Odstranit</string>
+    <!-- Footer -->
+    <string name="footer_home">Domů</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Více</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Zálohování a obnovení</string>
+    <string name="backup_restore_export">Exportovat konfiguraci</string>
+    <string name="backup_restore_restore">Obnovit konfiguraci</string>
+    <string name="backup_restore_exported">Konfigurace uložena do %s</string>
+    <string name="backup_restore_export_fail">Chyba při exportu konfigurace</string>
+    <string name="backup_restore_invalid_config">Neplatná konfigurace AOT Tethering</string>
+    <string name="backup_restore_restored">Konfigurace úspěšně obnovena</string>
+    <string name="backup_restore_restore_fail">Chyba při obnově konfigurace</string>
+</resources>

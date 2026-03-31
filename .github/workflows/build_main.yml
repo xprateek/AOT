@@ -1,0 +1,66 @@
+name: Stable Release (Main)
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: webui/package-lock.json
+
+      - name: Install WebUI Dependencies
+        run: npm ci
+        working-directory: webui
+
+      - name: Build WebUI
+        run: npm run build
+        working-directory: webui
+
+      - name: Extract Version & Set Artifact Name
+        id: aot_info
+        run: |
+          VERSION=$(grep -m 1 "version=" module/module.prop | cut -d= -f2)
+          echo "AOT_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "ZIP_NAME=AOT-Tether-${VERSION}-REL.zip" >> $GITHUB_ENV
+          
+          sed -n '/## /,/---/p' CHANGELOG.md | head -n -1 > release_body.txt
+          if [ ! -s release_body.txt ]; then
+             sed -n '/## /,/## /p' CHANGELOG.md | head -n -1 > release_body.txt
+          fi
+
+      - name: Zip KernelSU Module
+        run: |
+          cd module
+          zip -r9 ../${{ env.ZIP_NAME }} *
+          cd ..
+
+      - name: Publish to GitHub Releases (Tags)
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          name: "AOT ${{ env.AOT_VERSION }} Stable Release (REL)"
+          tag_name: ${{ github.ref_name }}
+          body_path: release_body.txt
+          files: ${{ env.ZIP_NAME }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

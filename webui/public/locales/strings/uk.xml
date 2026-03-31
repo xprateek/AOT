@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Системний за замовчуванням</string>
+    <!-- Status -->
+    <string name="status_title">Статус</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Налаштування розробника ввімкнено</string>
+    <string name="global_dev_opt_true">Налаштування розробника вже ввімкнено</string>
+    <string name="global_saved">Файл збережено в %s</string>
+    <string name="global_save_fail">Помилка збереження файлу</string>
+    <string name="global_file_too_large">Редагування файлів не підтримується на великих файлах</string>
+    <string name="global_file_name_empty">Ім&apos;я файлу не може бути порожнім</string>
+    <string name="global_show_all">Показати всі %d ще</string>
+    <string name="global_close">Закрити</string>
+    <string name="global_cancel">Скасувати</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Не підтримується</string>
+    <!-- Query -->
+    <string name="query_title">Запит хоста</string>
+    <string name="query_search">Пошук</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Тип</string>
+    <string name="query_host_domain">Домен</string>
+    <string name="query_remove_prompt">Білий список %s</string>
+    <string name="query_remove_error">Помилка додавання до білого списку %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Панель управління</string>
+    <string name="control_panel_language">Мова</string>
+    <string name="control_panel_bad_translation">Неправильний переклад</string>
+    <string name="control_panel_add_language">Додати мову</string>
+    <string name="control_panel_get_tiles">Плитка швидких налаштувань</string>
+    <string name="control_panel_installing">Встановлюється...</string>
+    <string name="control_panel_installed">Встановлено, будь ласка, активуйте права SU для програми AOT Tethering</string>
+    <string name="control_panel_download_fail">Не вдалося завантажити, будь ласка, перевірте ваше з&apos;єднання з інтернетом</string>
+    <string name="control_panel_install_fail">Не вдалося встановити, будь ласка, встановіть вручну з /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Оновлення модуля</string>
+    <string name="control_panel_update_true">Оновлення модуля ввімкнено</string>
+    <string name="control_panel_update_false">Оновлення модуля вимкнено</string>
+    <string name="control_panel_action_redirect">Перенаправлення дій</string>
+    <string name="control_panel_action_prompt_true">Дія Magisk по перенаправленню в WebUI ввімкнено</string>
+    <string name="control_panel_action_prompt_false">Дія Magisk по перенаправленню в WebUI вимкнено</string>
+    <string name="control_panel_update_hosts_daily">Оновлювати файл hosts щодня</string>
+    <string name="control_panel_cron_true">Запис Crontab додана</string>
+    <string name="control_panel_cron_false">Запис Crontab видалено</string>
+    <string name="control_panel_monitor_network_activity">Моніторинг мережевої активності</string>
+    <!-- Custom -->
+    <string name="custom_title">Користувацькі правила</string>
+    <string name="custom_guide1">Додавання користувацьких перенаправлень</string>
+    <string name="custom_example">Приклад:</string>
+    <string name="custom_format">Формат:</string>
+    <string name="custom_warning">УВАГА: Користувацькі правила завантажуються як при запуску, так і при скиданні!</string>
+    <string name="custom_prompt_fail">%s вже в списку користувацьких правил</string>
+    <!-- Import -->
+    <string name="import_custom_title">Імпорт користувацьких правил</string>
+    <!-- Source -->
+    <string name="source_title">Джерела</string>
+    <string name="source_guide1">Чорний список джерел</string>
+    <string name="source_guide2">Набори користувацьких правил</string>
+    <string name="source_format">Формат:</string>
+    <string name="source_example">Приклад:</string>
+    <string name="source_source_page">Більше джерел</string>
+    <string name="source_prompt_fail">%s вже є в списку джерел</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Чорний список</string>
+    <string name="blacklist_guide1">Все, що ви додасте сюди, буде в чорному списку</string>
+    <string name="blacklist_example">Приклад:</string>
+    <string name="blacklist_prompt_fail">%s вже в чорному списку</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Білий список</string>
+    <string name="whitelist_guide1">Все, що ви додасте сюди, не буде в чорному списку</string>
+    <string name="whitelist_example">Приклад:</string>
+    <string name="whitelist_prompt_fail">%s вже в білому списку</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Джерела білого списку</string>
+    <string name="sources_whitelist_guide1">Додайте джерела білого списку сюди</string>
+    <string name="sources_whitelist_format">Формат:</string>
+    <string name="sources_whitelist_example">Приклад:</string>
+    <string name="sources_whitelist_prompt_fail">%s вже в джерелі білого списку</string>
+    <!-- Mode -->
+    <string name="mode_button">Режим %s</string>
+    <string name="mode_title">Режим роботи</string>
+    <string name="mode_detail">Дізнатися більше</string>
+    <string name="mode_reset">Скинути (автоматично)</string>
+    <!-- More -->
+    <string name="more_documents">Документи</string>
+    <string name="more_sources">Джерела</string>
+    <string name="more_usage">Використання</string>
+    <string name="more_modes">Режими</string>
+    <string name="more_hiding">Приховати</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Підтримка</string>
+    <string name="more_support_issue">Повідомити про проблему</string>
+    <string name="more_support_update_success">Оновлення успішне, перезавантажте пристрій, щоб зміни набули чинності</string>
+    <string name="more_support_update_fail">Оновлення не вдалось, будь ласка, завантажте з GitHub і встановіть вручну</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Підтвердити видалення?</string>
+    <string name="confirmation_message">Ви впевнені, що хочете видалити</string>
+    <string name="confirmation_remove">Видалити</string>
+    <!-- Footer -->
+    <string name="footer_home">Головна</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Більше</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Резервне копіювання та відновлення</string>
+    <string name="backup_restore_export">Експорт конфігурації</string>
+    <string name="backup_restore_restore">Відновлення конфігурації</string>
+    <string name="backup_restore_exported">Конфігурація збережена в %s</string>
+    <string name="backup_restore_export_fail">Помилка експорту конфігурації</string>
+    <string name="backup_restore_invalid_config">Невірна конфігурація AOT Tethering</string>
+    <string name="backup_restore_restored">Конфігурація успішно відновлена</string>
+    <string name="backup_restore_restore_fail">Помилка відновлення конфігурації</string>
+</resources>

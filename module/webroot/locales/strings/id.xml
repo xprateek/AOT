@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Default Sistem</string>
+    <!-- Status -->
+    <string name="status_title">Status</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Opsi pengembang diaktifkan</string>
+    <string name="global_dev_opt_true">Opsi pengembang telah di diaktifkan</string>
+    <string name="global_reboot_now">Mulai ulang untuk menerapkan</string>
+    <string name="global_reboot">Mulai ulang</string>
+    <string name="global_rebooting">Memulai ulang...</string>
+    <string name="global_saved">File disimpan ke %s</string>
+    <string name="global_save_fail">Gagal menyimpan file</string>
+    <string name="global_file_too_large">Hanya edit file yang diizinkan pada file besar</string>
+    <string name="global_file_name_empty">Nama file tidak boleh kosong</string>
+    <string name="global_show_all">Tampilkan semua %d lagi</string>
+    <string name="global_close">Tutup</string>
+    <string name="global_cancel">Batal</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Tidak Didukung</string>
+    <!-- Query -->
+    <string name="query_title">Kueri Host</string>
+    <string name="query_search">Cari</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Tipe</string>
+    <string name="query_host_domain">Domain</string>
+    <string name="query_remove_prompt">Hapus dari daftar putih %s</string>
+    <string name="query_remove_error">Gagal menambahkan ke daftar putih %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Panel Kontrol</string>
+    <string name="control_panel_language">Bahasa</string>
+    <string name="control_panel_bad_translation">Terjemahan Buruk</string>
+    <string name="control_panel_add_language">Tambahkan Bahasa Lainnya</string>
+    <string name="control_panel_get_tiles">Dapatkan Tile QS</string>
+    <string name="control_panel_installing">Memasang...</string>
+    <string name="control_panel_installed">Terpasang, silakan aktifkan izin SU untuk aplikasi AOT Tethering</string>
+    <string name="control_panel_download_fail">Gagal mengunduh, silakan periksa koneksi internet anda</string>
+    <string name="control_panel_install_fail">Gagal memasang, silakan instal secara manual dari /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Pembaruan Modul</string>
+    <string name="control_panel_update_true">Pembaruan Modul diaktifkan</string>
+    <string name="control_panel_update_false">Pembaruan Modul dinonaktifkan</string>
+    <string name="control_panel_action_redirect">Alihkan Action</string>
+    <string name="control_panel_action_prompt_true">Pengalihan Magisk action ke WebUI diaktifkan</string>
+    <string name="control_panel_action_prompt_false">Pengalihan Magisk action ke WebUI dinonaktifkan</string>
+    <string name="control_panel_update_hosts_daily">Perbarui Host Setiap Hari</string>
+    <string name="control_panel_cron_true">Entri Crontab ditambahkan</string>
+    <string name="control_panel_cron_false">Entri Crontab dihapus</string>
+    <string name="control_panel_monitor_network_activity">Pantau Aktivitas Jaringan</string>
+    <!-- Custom -->
+    <string name="custom_title">Aturan kustom</string>
+    <string name="custom_guide1">Tambahkan pengalihan khusus disini</string>
+    <string name="custom_example">Contoh:</string>
+    <string name="custom_format">Format:</string>
+    <string name="custom_warning">PERINGATAN: Aturan khusus dimuat saat dijalankan dan disetel ulang!</string>
+    <string name="custom_prompt_fail">%s sudah ada di aturan kustom</string>
+    <!-- Import -->
+    <string name="import_custom_title">Impor Aturan Kustom</string>
+    <!-- Source -->
+    <string name="source_title">Sumber</string>
+    <string name="source_guide1">Sumber daftar hitam</string>
+    <string name="source_guide2">Sumber aturan kustom</string>
+    <string name="source_format">Format:</string>
+    <string name="source_example">Contoh:</string>
+    <string name="source_source_page">Sumber lainnya</string>
+    <string name="source_prompt_fail">%s sudah ada di sumber</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Daftar hitam</string>
+    <string name="blacklist_guide1">Apapun yang anda tambahkan di sini akan masuk ke daftar hitam</string>
+    <string name="blacklist_example">Contoh:</string>
+    <string name="blacklist_prompt_fail">%s sudah ada di daftar hitam</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Daftar putih</string>
+    <string name="whitelist_guide1">Apapun yang Anda tambahkan di sini tidak akan masuk ke daftar hitam</string>
+    <string name="whitelist_example">Contoh:</string>
+    <string name="whitelist_prompt_fail">%s sudah ada di daftar putih</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Sumber Daftar Putih</string>
+    <string name="sources_whitelist_guide1">Tambahkan sumber daftar putih disini</string>
+    <string name="sources_whitelist_format">Format:</string>
+    <string name="sources_whitelist_example">Contoh:</string>
+    <string name="sources_whitelist_prompt_fail">%s sudah ada di sumber daftar putih</string>
+    <!-- Mode -->
+    <string name="mode_button">Mode %s</string>
+    <string name="mode_title">Mode Operasi</string>
+    <string name="mode_detail">Pelajari lebih lanjut</string>
+    <string name="mode_reset">Atur ulang (auto)</string>
+    <!-- More -->
+    <string name="more_documents">Dokumen</string>
+    <string name="more_sources">Sumber</string>
+    <string name="more_usage">Penggunaan</string>
+    <string name="more_modes">Mode</string>
+    <string name="more_hiding">Sembunyikan</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Dukungan</string>
+    <string name="more_support_issue">Laporkan masalah</string>
+    <string name="more_support_update_canary">Perbarui ke versi Canary terbaru</string>
+    <string name="more_support_update_success">Pembaruan berhasil, mulai ulang untuk menerapkan efeknya</string>
+    <string name="more_support_update_fail">Gagal memperbarui, tolong unduh dan pasang secara manual melalui GitHub</string>
+    <string name="more_support_checking_update">Memeriksa pembaruan...</string>
+    <string name="more_support_no_update">Saat ini tidak ada pembaruan yang tersedia</string>
+    <string name="more_support_update_locales">Perbarui paket terjemahan</string>
+    <string name="more_support_update_locales_failed">Gagal memperbarui paket terjemahan</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Konfirmasi Hapus?</string>
+    <string name="confirmation_message">Apakah Anda yakin ingin menghapus</string>
+    <string name="confirmation_remove">Hapus</string>
+    <!-- Footer -->
+    <string name="footer_home">Beranda</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Lainnya</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Cadangkan &amp; Pulihkan</string>
+    <string name="backup_restore_export">Ekspor konfigurasi</string>
+    <string name="backup_restore_restore">Pulihkan konfigurasi</string>
+    <string name="backup_restore_exported">Konfigurasi disimpan ke %s</string>
+    <string name="backup_restore_export_fail">Gagal mengekspor konfigurasi</string>
+    <string name="backup_restore_invalid_config">Konfigurasi AOT Tethering tidak valid</string>
+    <string name="backup_restore_restored">Konfigurasi berhasil dipulihkan</string>
+    <string name="backup_restore_restore_fail">Gagal memulihkan konfigurasi</string>
+</resources>

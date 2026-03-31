@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_default">Системный по умолчанию</string>
+    <!-- Status -->
+    <string name="status_title">Статус</string>
+    <!-- Global -->
+    <string name="global_dev_opt">Настройки разработчика включены</string>
+    <string name="global_dev_opt_true">Настройки разработчика уже включены</string>
+    <string name="global_reboot_now">Для применения изменений необходима перезагрузка</string>
+    <string name="global_reboot">Перезагрузка</string>
+    <string name="global_rebooting">Перезагрузка...</string>
+    <string name="global_saved">Файл сохранён в %s</string>
+    <string name="global_save_fail">Ошибка сохранения файла</string>
+    <string name="global_file_too_large">Редактирование файлов не поддерживается на больших файлах</string>
+    <string name="global_file_name_empty">Имя файла не может быть пустым</string>
+    <string name="global_show_all">Показать все %d еще</string>
+    <string name="global_close">Закрыть</string>
+    <string name="global_cancel">Отмена</string>
+    <string name="global_action">Action</string>
+    <string name="global_unsupported">Не поддерживается</string>
+    <!-- Query -->
+    <string name="query_title">Запрос хоста</string>
+    <string name="query_search">Поиск</string>
+    <string name="query_host_ip">IP</string>
+    <string name="query_host_type">Тип</string>
+    <string name="query_host_domain">Домен</string>
+    <string name="query_remove_prompt">Белый список %s</string>
+    <string name="query_remove_error">Ошибка добавления в белый список %s</string>
+    <!-- Control Panel -->
+    <string name="control_panel_title">Панель управления</string>
+    <string name="control_panel_language">Язык</string>
+    <string name="control_panel_bad_translation">Неправильный перевод</string>
+    <string name="control_panel_add_language">Добавить язык</string>
+    <string name="control_panel_get_tiles">Получить плитку быстрых настроек</string>
+    <string name="control_panel_installing">Установка...</string>
+    <string name="control_panel_installed">Установлено, пожалуйста, активируйте права SU для приложения AOT Tethering</string>
+    <string name="control_panel_download_fail">Не удалось скачать, пожалуйста, проверьте ваше интернет-подключение</string>
+    <string name="control_panel_install_fail">Не удалось установить, пожалуйста, установите вручную из /sdcard/Download/AOT Tethering-app</string>
+    <string name="control_panel_module_update">Обновления модуля</string>
+    <string name="control_panel_update_true">Обновления модуля включены</string>
+    <string name="control_panel_update_false">Обновления модуля отключены</string>
+    <string name="control_panel_action_redirect">Перенаправление действий</string>
+    <string name="control_panel_action_prompt_true">Действие Magisk по перенаправлению в WebUI включено</string>
+    <string name="control_panel_action_prompt_false">Действие Magisk по перенаправлению в WebUI отключено</string>
+    <string name="control_panel_update_hosts_daily">Обновлять файл hosts ежедневно</string>
+    <string name="control_panel_cron_true">Запись Crontab добавлена</string>
+    <string name="control_panel_cron_false">Запись Crontab удалена</string>
+    <string name="control_panel_monitor_network_activity">Мониторинг сетевой активности</string>
+    <!-- Custom -->
+    <string name="custom_title">Пользовательские правила</string>
+    <string name="custom_guide1">Добавление пользовательских перенаправлений</string>
+    <string name="custom_example">Пример:</string>
+    <string name="custom_format">Формат:</string>
+    <string name="custom_warning">ВНИМАНИЕ: Пользовательские правила загружаются как при запуске, так и при сбросе!</string>
+    <string name="custom_prompt_fail">%s уже в списке пользовательских правил</string>
+    <!-- Import -->
+    <string name="import_custom_title">Импорт пользовательских правил</string>
+    <!-- Source -->
+    <string name="source_title">Источники</string>
+    <string name="source_guide1">Чёрный список источников</string>
+    <string name="source_guide2">Наборы пользовательских правил</string>
+    <string name="source_format">Формат:</string>
+    <string name="source_example">Пример:</string>
+    <string name="source_source_page">Больше источников</string>
+    <string name="source_prompt_fail">%s уже есть в списке источников</string>
+    <!-- Blacklist -->
+    <string name="blacklist_title">Чёрный список</string>
+    <string name="blacklist_guide1">Всё, что вы добавите сюда, будет в чёрном списке</string>
+    <string name="blacklist_example">Прммер:</string>
+    <string name="blacklist_prompt_fail">%s уже в чёрном списке</string>
+    <!-- Whitelist -->
+    <string name="whitelist_title">Белый список</string>
+    <string name="whitelist_guide1">Всё, что вы добавите сюда, не будет в чёрном списке</string>
+    <string name="whitelist_example">Пример:</string>
+    <string name="whitelist_prompt_fail">%s уже в белом списке</string>
+    <!-- Sources -->
+    <string name="sources_whitelist_title">Источники белого списка</string>
+    <string name="sources_whitelist_guide1">Добавьте источники белого списка здесь</string>
+    <string name="sources_whitelist_format">Формат:</string>
+    <string name="sources_whitelist_example">Пример:</string>
+    <string name="sources_whitelist_prompt_fail">%s уже в источнике белого списка</string>
+    <!-- Mode -->
+    <string name="mode_button">Режим %s</string>
+    <string name="mode_title">Режим работы</string>
+    <string name="mode_detail">Узнать больше</string>
+    <string name="mode_reset">Сброс (автоматический)</string>
+    <!-- More -->
+    <string name="more_documents">Документы</string>
+    <string name="more_sources">Источники</string>
+    <string name="more_usage">Использование</string>
+    <string name="more_modes">Режимы</string>
+    <string name="more_hiding">Скрытие</string>
+    <string name="more_faq">FAQ</string>
+    <string name="more_support">Поддержка</string>
+    <string name="more_support_issue">Сообщить о проблеме</string>
+    <string name="more_support_update_canary">Обновить до последней тестовой версии</string>
+    <string name="more_support_update_success">Успешно обновлено, перезагрузитесь для применения изменений</string>
+    <string name="more_support_update_fail">Ошибка в обновлении, пожалуйста скачайте и установите вручную из GitHub</string>
+    <string name="more_support_checking_update">Проверка наличия обновлений...</string>
+    <string name="more_support_no_update">Обновлений нет</string>
+    <string name="more_support_update_locales">Обновить перевод</string>
+    <string name="more_support_update_locales_failed">Не получилось обновить перевод</string>
+    <!-- Confirmation -->
+    <string name="confirmation_title">Подтвердить удаление?</string>
+    <string name="confirmation_message">Вы уверены, что хотите удалить</string>
+    <string name="confirmation_remove">Удалить</string>
+    <!-- Footer -->
+    <string name="footer_home">Главная</string>
+    <string name="footer_hosts">Hosts</string>
+    <string name="footer_more">Ещё</string>
+    <!-- Backup and Restore -->
+    <string name="backup_restore_backup_and_restore">Резервное копирование и восстановление</string>
+    <string name="backup_restore_export">Экспорт конфигурации</string>
+    <string name="backup_restore_restore">Восстановление конфигурации</string>
+    <string name="backup_restore_exported">Конфигурация сохранена в %s</string>
+    <string name="backup_restore_export_fail">Ошибка экспорта конфигурации</string>
+    <string name="backup_restore_invalid_config">Неверная конфигурация AOT Tethering</string>
+    <string name="backup_restore_restored">Конфигурация успешно восстановлена</string>
+    <string name="backup_restore_restore_fail">Ошибка восстановления конфигурации</string>
+</resources>
